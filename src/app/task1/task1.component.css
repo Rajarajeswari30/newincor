@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    
+    
+    
+
+    background-color:white;
+    
+    padding-top: 30px;
+}
+button{
+    border-radius: 3px;
+    background-color: white;
+    transition-delay: 0.04s;
+    height: 30px;
+    width: 70px;
+}
+button:hover{
+    background-color:black;
+    color:white;
+}

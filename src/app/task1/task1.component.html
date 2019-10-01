@@ -1,0 +1,13 @@
+<body>
+    <form [formGroup]="task1">
+       <label>UserId:</label>
+       <input type="text" placeholder="Enter your UserId" formControlname="userId"><br><br>
+       <label>Id:</label>
+       <input type="text" placeholder="Enter your Id" formControlName="id"><br><br>
+       <label>Title:</label>
+       <input type="text" placeholder="Enter the title" formControlName="title"><br><br>
+       <label>Completed:</label>
+       <input type="text" placeholder="Enter the status" formControlName="completed"><br><br>
+       <button (click)="add(task1.value)">Add</button>
+    </form>
+</body>

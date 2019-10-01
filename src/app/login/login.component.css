@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 200px;
+    border-style: inset;
+    width: 600px;
+    height: 250px;
+    background-color: rgb(218, 207, 207);
+}
+button{
+    border-radius: 3px;
+    background-color: white;
+    transition-delay: 0.04s;
+    height: 30px;
+    width: 70px;
+}
+button:hover{
+    background-color:black;
+    color:white;
+}

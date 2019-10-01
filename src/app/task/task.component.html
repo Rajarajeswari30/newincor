@@ -1,0 +1,25 @@
+<body>
+        
+    <h2>To-Do List</h2>
+    <label>Search:</label>
+    <input type="search"  placeholder="search here">
+    <button (click)="submit()">Submit</button>
+    <a [routerLink]="['/task1']">Create List</a>
+</body>
+
+<br><br>
+
+<table>
+    <th>UserId</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Completed</th>
+
+
+<tr *ngFor="let list of totallist">
+    <td>{{list.userId}}</td>
+    <td>{{list.id}}</td>
+    <td>{{list.title}}</td>
+    <td>{{list.completed}}</td>
+</tr>
+</table>

@@ -1,0 +1,18 @@
+<body>
+    <h2>Posts</h2>
+    <button (click)="show()">Show Post</button>
+<table>
+    <th>UserId</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Body</th>
+    <!-- <th>Comments</th> -->
+
+    <tr *ngFor="let post of totalpost" (click)="p11(post)" >
+        <td>{{post.userId}}</td>
+        <td>{{post.id}}</td>
+        <td>{{post.title}}</td>
+        <td>{{post.body}}</td>
+        <!-- <td>>Show Comments</button></td> -->
+    </tr>
+</table>

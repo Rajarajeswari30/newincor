@@ -1,0 +1,25 @@
+tr,td{
+    border : 1px solid black;
+    border-collapse: collapse;
+}
+body{
+    text-align: center;
+    margin-top: 200px;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+button{
+    background-color: rgb(214, 199, 199);
+    color: black;
+    width: 150px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.04s;
+}
+button:hover{
+    background-color: dimgrey;
+    color: black;
+}
